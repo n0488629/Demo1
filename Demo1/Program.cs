@@ -10,6 +10,14 @@ namespace Demo1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What is your name?");
+
+            string name = Console.ReadLine();
+
+            Console.WriteLine("What is your favorite color?");
+
+            String color = Console.ReadLine();
+
         }
     }
 }
